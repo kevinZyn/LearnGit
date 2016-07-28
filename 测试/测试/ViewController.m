@@ -46,6 +46,10 @@
     self.secondLB.textColor = [UIColor blueColor];
     
     self.view.backgroundColor = [UIColor yellowColor];
+    
+    UIImageView *iconImageView = [[UIImageView alloc]initWithFrame:CGRectMake(100, 350, 200, 200)];
+    iconImageView.image = [UIImage imageNamed:@"icon"];
+    [self.view addSubview:iconImageView];
     NSDateFormatter *dateFormatter=[[NSDateFormatter alloc] init];
     [dateFormatter setDateFormat:@"yyyy-MM-dd"];
     
