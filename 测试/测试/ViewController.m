@@ -40,10 +40,12 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.dayLB.textColor  = [UIColor redColor];
-    self.hourLB.textColor = [UIColor grayColor];
+    self.dayLB.textColor    = [UIColor redColor];
+    self.hourLB.textColor   = [UIColor grayColor];
     self.minuteLB.textColor = [UIColor greenColor];
     self.secondLB.textColor = [UIColor blueColor];
+    
+    self.view.backgroundColor = [UIColor yellowColor];
     NSDateFormatter *dateFormatter=[[NSDateFormatter alloc] init];
     [dateFormatter setDateFormat:@"yyyy-MM-dd"];
     
