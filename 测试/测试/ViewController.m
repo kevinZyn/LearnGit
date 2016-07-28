@@ -50,6 +50,8 @@
     UIImageView *iconImageView = [[UIImageView alloc]initWithFrame:CGRectMake(100, 350, 200, 200)];
     iconImageView.image = [UIImage imageNamed:@"icon"];
     [self.view addSubview:iconImageView];
+    
+    NSLog(@"Sanjiang");
     NSDateFormatter *dateFormatter=[[NSDateFormatter alloc] init];
     [dateFormatter setDateFormat:@"yyyy-MM-dd"];
     
